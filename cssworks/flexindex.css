@@ -1,0 +1,29 @@
+.row{
+    width: 800px;
+    height: 400px;
+    background-color: blanchedalmond;
+    display: flex;
+   /* justify-content: space-between;*/
+   justify-content: space-evenly;
+   /* justify-content: flex-end;*/
+   /*align-items:flex-end ;*/
+   align-items: center;
+}
+.col{
+    width: 150px;
+    height: 100px;
+
+}
+.col-1{
+    background-color: blueviolet;
+    flex:1;
+}
+.col-2{
+    background-color: rgb(29, 187, 192);
+}
+.col-3{
+    background-color: rgb(126, 6, 238);
+}
+.col-4{
+    background-color: rgb(68, 60, 75);
+}

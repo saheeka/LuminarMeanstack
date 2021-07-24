@@ -1,0 +1,35 @@
+.row{
+    width: 100%;
+    display: flex;
+    
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.col{
+    width: 18%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.col img{
+    width:100% ;
+    height: 200px;
+    border-radius: 50%;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    color: black;
+}
+.btnclass{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    background-color: cornflowerblue;
+    height: 50px;
+    align-items: center;
+}

@@ -1,0 +1,135 @@
+
+
+ .row1{
+     position: absolute;
+     left: 350px;
+     top: 20px;
+ }
+ .row2{
+     position: absolute;
+     left: 240px;
+     top: 200px;
+ }
+ .row3{
+    position: absolute;
+    left: 130px;
+    top: 380px;
+ }
+ .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16,.box17,.box18,.box19,.box20,.box21{
+     margin-left: 10px;
+     height: 150px;
+    width: 100px;
+
+ }
+ 
+ 
+.box1{
+    
+    background-color: rgb(129, 58, 69);
+    
+    left: 0px;
+}
+.box2{
+    
+    background-color: rgb(47, 18, 48);
+    left: 110px;
+}
+.box3
+{   
+    background-color: rgb(23, 163, 116);
+    float: left;
+}
+.box4{   
+    background-color: darkslategrey;
+    float: left;
+}
+.box5
+{
+   
+background-color: rgb(66, 67, 70);
+float: left;
+}
+.box6{
+    
+    background-color: cornflowerblue;
+    float: left;
+}
+.box7{
+    
+    background-color: rgb(94, 32, 44);
+    float: left;
+}
+.box8
+{   
+    background-color: rgb(77, 66, 77);
+    float: left;
+}
+.box9{   
+    background-color: darkslategrey;
+    float: left;
+}
+.box10
+{
+   
+background-color: rgb(66, 47, 133);
+float: left;
+}
+.box11{   
+    background-color: darkslategrey;
+    float: left;
+}
+
+.box12
+{
+   
+background-color: rgb(52, 83, 52);
+float: left;
+}
+.box13
+{
+   
+background-color: rgb(128, 111, 189);
+float: left;
+}
+.box14{   
+    background-color: rgb(195, 206, 50);
+    float: left;
+}
+.box15
+{
+   
+background-color: rgb(230, 160, 30);
+float: left;
+}
+.box16
+{
+   
+background-color: rgb(238, 42, 52);
+float: left;
+}
+.box17{   
+    background-color: rgb(28, 69, 116);
+    float: left;
+}
+.box18
+{
+   
+background-color: rgb(186, 240, 39);
+float: left;
+}
+.box19
+{
+   
+background-color: rgb(45, 85, 109);
+float: left;
+}
+.box20{   
+    background-color: rgb(16, 236, 34);
+    float: left;
+}
+.box21
+{
+   
+background-color: rgb(34, 48, 175);
+float: left;
+}
