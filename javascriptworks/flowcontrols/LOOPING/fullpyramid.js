@@ -1,15 +1,15 @@
-let n = 5; // you can take input from prompt or change the value
-let string = "";
+//let n = 5; // you can take input from prompt or change the value
+
 // External loop
-for (let i = 1; i <= n; i++) {
+for (let i = 1; i <= 4; i++) {
+  let str = "";
   // printing spaces
-  for (let j = 1; j <= n - i; j++) {
-    string += " ";
+  for (let j = 4; j >i; j--) {
+    str += " ";
   }
   // printing star
-  for (let k = 0; k < 2 * i - 1; k++) {
-    string += "*";
+  for (let k = 1; k <= i; k++) {
+    str += "*";
   }
-  string += "\n";
+  console.log(str);
 }
-console.log(string);
