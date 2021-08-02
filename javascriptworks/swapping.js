@@ -20,35 +20,29 @@
 // 
 
 //****** second largest among 3 */
-var num1=63,num2=132,num3=254;
-if(num1>num2 & num1>num3)
-{
-    if(num2>num3){
+var num1 = 63, num2 = 132, num3 = 254;
+if (num1 > num2 & num1 > num3) {
+    if (num2 > num3) {
         console.log(num2);
 
     }
-    else{
+    else {
         console.log(num3);
     }
 }
-if(num2>num3 & num2>num1)
-{
-    if(num3>num1)
-    {
+if (num2 > num3 & num2 > num1) {
+    if (num3 > num1) {
         console.log(num3);
     }
-    else
-    {
+    else {
         console.log(num1);
     }
 }
-if(num3>num1 & num3>num2)
-{
-    if(num2>num1)
-    {
+if (num3 > num1 & num3 > num2) {
+    if (num2 > num1) {
         console.log(num2);
     }
-    else{
+    else {
         console.log(num1);
     }
 }
@@ -58,16 +52,14 @@ if(num3>num1 & num3>num2)
 
 //***************largest */
 
-var num1=1043,num2=834,num3=1043;
-if(num1>num2 & num1>num3)
-{
+var num1 = 1043, num2 = 834, num3 = 1043;
+if (num1 > num2 & num1 > num3) {
     console.log(num1);
 }
-if(num2>num3 & num2>num1){
+if (num2 > num3 & num2 > num1) {
     console.log(num2);
 }
-if(num3>num1 & num3>num2)
-{
+if (num3 > num1 & num3 > num2) {
     console.log(num3);
 }
 
@@ -88,17 +80,20 @@ if(num3>num1 & num3>num2)
 
 
 //*********** */
-var flag=0,low=3,upp=10
-for(i=low;i<=upp;i++)
-{
-    for(j=2;j<i;j++)
-    {
-    if(i%j==0)
-    {
-     flag = 1;
-     break;
+var flag = 0, low = 3, upp = 10;
+for (i = 3; i <= upp; i++) {
+    for (j = 2; j < i; j++) {
+        if (i % j == 0) {
+            flag += 1;
+            
+        }
     }
+
+    if (flag==0)
+    {
+        console.log(i);
     }
-    
-console.log(flag==0? i: "");
+    else{
+        console.log("");
+    }
 }
