@@ -35,3 +35,19 @@ for(let employee of employees)
 // }
 
 
+//  highest paid
+var max_sal=0;
+for (let emp of employees){
+    if(emp[2]>max_sal){
+        max_sal=emp[2]
+    }
+}
+console.log(max_sal);
+ for (let emp of employees)
+ {
+     if(emp[2]==max_sal)
+     {
+         console.log(emp[1]);
+     }
+ }
+

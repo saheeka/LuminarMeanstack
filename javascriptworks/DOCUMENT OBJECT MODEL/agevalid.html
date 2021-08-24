@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <div>
+        <h1>Age check</h1>
+    </div>
+    <div>
+        <input type="text" id="age">
+        <button onclick="isValid()">
+            Validate Age
+        </button> 
+    </div>
+    <div id="section"></div>
+</body>
+<script>
+
+    function isValid()
+    {
+        let age1=age.value;
+        if(age1>18)
+        {
+            section.innerHTML="valid"
+        }
+        else
+        
+        {
+            section.innerHTML="invalid"
+        }
+    }
+
+</script>
+</html>

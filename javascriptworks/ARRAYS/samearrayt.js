@@ -13,3 +13,5 @@ if(arr1.length==arr2.length)
 else{
     console.log("not same");
 }
+
+
